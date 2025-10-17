@@ -39,7 +39,7 @@ def best_first_search(start, goal):
             if neighbor not in visited:
                 pq.put((heuristic[neighbor], neighbor))
 
-    print("❌ Goal not found.")
+    print("Goal not found.")
     return False
 
 
