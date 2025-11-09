@@ -11,7 +11,7 @@ df = pd.DataFrame(data)
 dataset = list(zip(*data.values()))
 dataset = [list(row) for row in dataset]
 
-group_col = "Weather"
+group_col = "Temperature"
 label_col = "Play"
 def gini_impurity ():
     total_instance = len(df)
